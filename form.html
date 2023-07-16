@@ -15,8 +15,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <img src="Bsa1.jpg" width="130px" height="130px" align="left">
-            <img src="picture.png" width="130px" height="130px" align="right">
+            <img src="Bsa1.jpg" width="150px" height="150px" align="center">
             <h1>สมคมผู้ตรวจสอบอาคารร</h1>
             <h1>THE BUILDING INSPECTOR ASSOCIATION</h1>
             <h3>ใบสมัครสมาชิก / ต่ออายุสมาชิก (Application From)</h3><br/>
@@ -39,6 +38,10 @@
                 <label for="sex">เพศ (Sex)</label>
                 <input type="radio" name="sex"  value="1">หญิง
                 <input type="radio" name="sex"  value="2">ชาย<br><br>
+            </div>
+            <div action="/upload" method="post" enctype="multipart/form-data" >
+                <label for="picture">รูปถ่าย 1 นิ้ว</label>
+                <input type="file" id="imageUpload" name="imageUpload">
             </div>
             <br>
             <div>
