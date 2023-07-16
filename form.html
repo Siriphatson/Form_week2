@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" class>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>ฟอร์มกรอกข้อมูล</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+    *{
+        font-family: 'Kanit', sans-serif;
+        box-sizing: border-box;
+    } 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="Bsa1.jpg" width="130px" height="130px" align="left">
+            <img src="picture.png" width="130px" height="130px" align="right">
+            <h1>สมคมผู้ตรวจสอบอาคาร</h1>
+            <h1>THE BUILDING INSPECTOR ASSOCIATION</h1>
+            <h3>ใบสมัครสมาชิก / ต่ออายุสมาชิก (Application From)</h3><br/>
+        </div>
+        <form id="form" class="form">
+        <label>(สำหรับเจ้าหน้าที่ / กรณีต่ออายุสมาชิกเก่า)</label><br><br>
+            <div class="form-control">
+                <label for="firstname">ชื่อ (First Name) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="" id="firstname">
+            
+                <label for="surname">&nbsp;&nbsp; นามสกุล (Surname) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="" id="surname"><br><br>
+            
+                <label for="dateofbirth">วัน/เดือน/ปี เกิด (Date Of Birth) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="date" name="" id="dateofbirth">
+
+                <label for="age"> &nbsp;&nbsp; อายุ (Age) &nbsp;&nbsp;</label>
+                <input type="text" name="" id="age"><br><br>
+
+                <label for="sex">เพศ (Sex)</label>
+                <input type="radio" name="sex"  value="1">หญิง
+                <input type="radio" name="sex"  value="2">ชาย<br><br>
+            </div>
+            <br>
+            <div>
+                <div style="background-color: rgb(193, 236, 228); color: rgb(0, 0, 0); font-weight: bold;">
+                <label for="addr">สถานที่ติดต่อ</label></div><br><br>
+                <label for="address">ที่อยู่ปัจจุบัน  &nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="" id="address">
+
+                <label for="M">&nbsp;&nbsp;หมู่ &nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="" id="M">
+
+                <label for="T">&nbsp;&nbsp;ตำบล &nbsp;&nbsp;</label>
+                <input type="text" name="" id="T"><br><br>
+
+                <label for="Ap">อำเภอ &nbsp;&nbsp;</label>
+                <input type="text" name="" id="Ap">
+
+                <label for="province">&nbsp;&nbsp;จังหวัด &nbsp;&nbsp;</label>
+                <input type="text" name="" id="province">
+
+                <label for="zipcode">&nbsp;&nbsp;รหัสไปรษณี &nbsp;&nbsp;</label>
+                <input type="text" name="" id="zipcode"><br><br>
+
+                <label for="tell">โทรศัพท์มือถือ &nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="" id="tell"><br><br>
+            </div>
+            <br>
+            <div>
+                <div style="background-color: rgb(193, 236, 228); color: rgb(0, 0, 0); font-weight: bold;">
+                <label for="degree">ระดับการศึกษาสูงสุด</label></div><br><br>
+                <input type="checkbox" name="VocationC" value="1">ปวช.(Vocation Certificate)<br>
+                <input type="checkbox" name="HighVocationC" value="2">ปวส.(High Vocation Certificate)<br>
+                <input type="checkbox" name="Bachelor" value="3">ปริญญาตรี(Bachelor)<br>
+                <input type="checkbox" name="Master" value="4">ปริญญาโท หรือสูงกว่า(Master of Higher)<br>
+            </div>
+            <br><br>
+            <div>
+                <div style="background-color: rgb(193, 236, 228); color: rgb(0, 0, 0); font-weight: bold;">
+                <label for="form-member">โดยข้าพเจ้ามีความประสงค์สมัครสมาชิกในประเภท ดังนี้</label></div><br>
+                <input type="radio" name="person1" value="1">ประเภทบุคคล<br>
+                <input type="radio" name="person"  value="1">รายปี 400 บาท
+                <input type="radio" name="person"  value="2">ราย 5 ปี 1,450 บาท<br><br>
+
+                <input type="radio" name="juristicperson1" value="1">ประเภทนิติบุคคล<br>
+                <input type="radio" name="juristicperson"  value="1">รายปี 3,000 บาท
+                <input type="radio" name="juristicperson"  value="2">ราย 5 ปี 13,500 บาท<br><br>
+            
+                <input type="radio" name="supportingperson1" value="1">ประเภทบุคคลสมทบ<br>
+                <input type="radio" name="supportingperson"  value="1">รายปี 300 บาท
+                <input type="radio" name="supportingperson"  value="2">ราย 5 ปี 1,000 บาท<br><br>
+            
+                <input type="radio" name="Typejuristicperson1" value="1">ประเภทนิติบุคคลสมทบ<br>
+                <input type="radio" name="Typejuristicperson"  value="1">รายปี 2,000 บาท
+                <input type="radio" name="Typejuristicperson"  value="2">ราย 5 ปี 9,000 บาท<br><br>
+
+            </div>
+            <br>
+            <div>
+                <div style="background-color: rgb(193, 236, 228); color: rgb(0, 0, 0); font-weight: bold;">
+                    <label for="pay">ประเภทชำระเงิน</label></div><br>
+                <input type="radio" name="pay" value="1">เงินสด จำนวน
+                <input type="text"  name="" id="pay">&nbsp;&nbsp;บาท<br><br>
+
+                <input type="radio" name="pay" value="1">เงินโอน ธนาคารไทยพาณิชย์ สาขาสี่แยกศรีวรา ชื่อบัญชี "สมาคมผู้ตรวจสอบอาคาร"<br>
+                เลขที่บัญชี 140-2-35560-9 พร้อมส่งสำเนาใบ Pay ln มาที่ โทรสาร 02-184-4613 / bsa.janjira@gmail.com , bsa.siwawut@gmail.com
+                
+            </div>
+            <br><br>
+            <div>
+                <div style="background-color: rgb(193, 236, 228); color: rgb(0, 0, 0); font-weight: bold;">
+                    <label for="document">เอกสารประกอบการสมัคร <br>
+                    1.สำเนาบัตรประชาชน 2.สำเนาจดทะเบียนบริษัท(เฉพาะนิติบุคคล) 3.สำเนาใบปประกอบวิชาชีพ <br>
+                    4.สำเนาวุฒิบัตรการขึ้นทะเบียนผู้ตรวจสอบอาคาร / ผู้ตรวจสอบพลังงาน / ผู้ตรวจสอบระบบไฟฟ้า / ผุ้ตรวจสอบเอกชน(โรงงาน)(ถ้ามี) <br>
+                    5.รูปถ่าย 1 นิ้ว 1 รูป
+                    </label></div><br>
+            </div>
+            <div class="button">
+            <button type="button">สมัครสมาชิก</button>
+            <button type="button">ต่ออายุสมาชิก</button>
+            </div>
+        </form>
+    </div>  
+</body>
+</html>

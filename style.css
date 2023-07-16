@@ -1,0 +1,30 @@
+body{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: flex-start;
+        min-height: 100vh;
+        margin: auto;
+    } 
+
+.container{
+    background-color: antiquewhite;
+    border-radius: 3px;
+    margin: auto;
+    width: auto;
+}
+
+.header{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    padding: 3%;
+}
+
+.form{
+    padding: 60px 60px;
+}
+
+.button{
+    text-align: center;
+}
+
